@@ -1,2 +1,2 @@
 # simple-website-template
-Just a super simple template for a html site
+Just a super simple template for a html site. Feel free to contribute.
