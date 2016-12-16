@@ -1,8 +1,10 @@
+/* this code refers to the html footer element. It colours it grey. If you want to change the color, change the `background-color`, and place whatever color code you want there. */
 footer { 
     display: block;
     background-color: #f1f1f1; 
 }
 
+/* this styles the header. Once again, change the `background-color` to change it to the color you want. */
 ul {
     list-style-type: none;
     margin: 0;
