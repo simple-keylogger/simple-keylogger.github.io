@@ -7,5 +7,7 @@ If you want to host your website completly free, I recommend [000webhost](https:
 
 Check out a live demo [here](https://giacomolaw.github.io/simple-website-template/).
 
-### View the site in action:
-[IF-Apps](https://if-apps.github.io/)
+### Companies using the template
+Great examples of the template in action. Check out below to see some template uses!
+
+- [IF-Apps](https://if-apps.github.io/)
