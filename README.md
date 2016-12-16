@@ -6,3 +6,6 @@ Comments can be found on the `index.html` page. I've also added comments to the 
 If you want to host your website completly free, I recommend [000webhost](https://www.000webhost.com/928694.html). I use it for a few of mine, and it is great. Obviously, you could just use [GitHub pages](https://pages.github.com/), but I have found that images are not supported very well, and often problems can occur.
 
 Check out a live demo [here](https://giacomolaw.github.io/simple-website-template/).
+
+### View the site in action:
+[IF-Apps](https://if-apps.github.io/)
