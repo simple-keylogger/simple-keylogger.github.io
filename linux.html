@@ -2,7 +2,7 @@
 <html>
   <head>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css"> 
     <title>A simple keylogger - Linux</title>
   </head>
 <body>
@@ -56,11 +56,11 @@ RECORD extension version 1.13
   </code><br><br>
   Or, using the options mentioned above:<br><br>
  <code>
-# This tells the logger to use /home/me/myfile.txt,
-# clearing the file on startup, and using ! as the
-# cancel key.
-# You don't have to use all of these options at once, or any at all.
-$ pylogger_file="/home/me/myfile.txt" pylogger_clean=1 pylogger_cancel="!" python keylogger.py
+# This tells the logger to use /home/me/myfile.txt,<br>
+# clearing the file on startup, and using ! as the<br>
+# cancel key.<br>
+# You don't have to use all of these options at once, or any at all.<br>
+$ pylogger_file="/home/me/myfile.txt" pylogger_clean=1 pylogger_cancel="!" python keylogger.py<br>
   </code>
   <br><br>
 The keylogger is now running! It will log your strokes to the file you specified. Stop it by hitting the cancel key (grave or `, if not set with pylogger_cancel. That's the one under escape on a standard keyboard.)
