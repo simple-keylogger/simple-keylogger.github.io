@@ -29,6 +29,12 @@ li a:hover {
       color: white;
 }
 
+/*
 code {
     background-color: #f1f1f1;
+}
+*/
+
+.padding {
+	margin: 10px;
 }
