@@ -14,7 +14,60 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   <h2>Installing on Linux</h2> 
-    <p>Simple keylogger is a simple keystroke logger for Windows, Mac and Linux. Check out the header for installation guides.
+  <h3>Installation</h3><
+<p>
+  You'll need to install <code>python-xlib</code> if you don't have it.<br><br>
+
+You can install it using pip:
+<br><br>
+<code>pip install python-xlib</code>
+<br><br>
+...or your system package manager:
+<br><br>
+  <code>sudo apt-get install python-xlib</code>
+<br><br>
+Check that you have git installed, and then run this.
+<br><br>
+  <code>git clone https://github.com/GiacomoLaw/Keylogger</code>
+<br><br>
+This will clone this entire repo. Find the linux folder, extract it, and open it. Rename the extracted folder to linux-logger Then run this:
+<br><br>
+  <code>giacomo@vostro:~$ cd linux-logger/</code>
+<p><br>
+  <h3>Options</h3>
+<p>
+There are several options that can be set with environment variables:
+<br><br>
+- <code>pylogger_file</code>: File path to use as the log file. Default: ~/Desktop/file.log<br>
+- <code>pylogger_cancel</code>: The key to use as the cancel key, in character form. Default: <code>`</code><br>
+- <code>pylogger_clean</code>: Whether to clear the file on startup. This can be set to anything to clear the file. Default: No (not set)
+
+  <h3>Running</h3>
+<p>
+You can use Python 2 or 3 to run the logger.<br><br>
+
+To run it:
+  <br><br>
+<code>
+$ python keylogger.py
+<class 'Xlib.protocol.request.QueryExtension'>
+<class 'Xlib.protocol.request.QueryExtension'>
+RECORD extension version 1.13
+  </code><br><br>
+  Or, using the options mentioned above:<br><br>
+ <code>
+# This tells the logger to use /home/me/myfile.txt,
+# clearing the file on startup, and using ! as the
+# cancel key.
+# You don't have to use all of these options at once, or any at all.
+$ pylogger_file="/home/me/myfile.txt" pylogger_clean=1 pylogger_cancel="!" python keylogger.py
+  </code>
+  <br><br>
+The keylogger is now running! It will log your strokes to the file you specified. Stop it by hitting the cancel key (grave or `, if not set with pylogger_cancel. That's the one under escape on a standard keyboard.)
+<br><br>
+You can make it run on startup:
+<br>
+$ sudo make startup</p>
       <br>
       <br>
 <a class="github-button" href="https://github.com/giacomolaw/keylogger/subscription" data-icon="octicon-eye" data-style="mega" data-count-href="/giacomolaw/keylogger/watchers" data-count-api="/repos/giacomolaw/keylogger#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch giacomolaw/keylogger on GitHub">Watch</a><!-- Place this tag where you want the button to render. -->
