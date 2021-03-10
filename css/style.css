@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body {
+	background: #c7d0c5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(199, 208, 197), rgb(99, 103, 98)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(199, 208, 197), rgb(99, 103, 98)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(199, 208, 197), rgb(99, 103, 98)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(199, 208, 197), rgb(99, 103, 98)); /* Standard syntax (must be last) */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {  
+    background-color: white;
+}
+
+.front {
+  max-width: 70%;
+  margin: 30px auto 0 auto;
+  border-radius: 15px;
+  background-color: white;
+  min-height: 350px;
+}
+
+.padding {
+    margin: 10px;
+}
+
+.centre {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+ #centre {
+    text-align: center;
+}
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+    margin: 10px;
+}
+
+button {
+	padding:5px 15px; 
+	background: #636762;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+button:hover {
+    background-color: #474a46;
+}
+
+#outer {
+    width:100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
+
+/* ==================================================
+			mobile
+=====================================================*/
+
+.front-mobile {
+  max-width: 90%;
+  margin: 30px auto 0 auto;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.mobile-font {
+  font-size: 37px;
+}
+
+.mobile-header {
+  font-size: 37px;
+}
+
+.mobile-button {
+  font-size: 50px;
+}
